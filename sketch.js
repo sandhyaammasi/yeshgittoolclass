@@ -39,7 +39,8 @@ function setup(){
 }
 
 function draw(){
-    background(backgroundImg);
+  //  background(backgroundImg);
+  background ("purple");
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
